@@ -1,10 +1,103 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8" />
-<title>Hola Render</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hola Render | Summer Edition</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #4a4a4a;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 40px;
+            border-radius: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            text-align: center;
+            max-width: 500px;
+            border: 4px solid #ff9f43;
+        }
+
+        h1 {
+            color: #ff6b6b;
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+        }
+
+        .team-section {
+            background: #fff5e6;
+            padding: 20px;
+            border-radius: 20px;
+            margin: 20px 0;
+        }
+
+        .team-title {
+            font-weight: bold;
+            color: #ff9f43;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        .names {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: #555;
+        }
+
+        .status-container {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 25px;
+        }
+
+        .badge {
+            padding: 8px 15px;
+            border-radius: 50px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            color: white;
+        }
+
+        .pre { background-color: #ff9f43; }
+        .pro { background-color: #ff6b6b; }
+
+        footer {
+            margin-top: 30px;
+            font-size: 0.8rem;
+            opacity: 0.7;
+        }
+    </style>
 </head>
 <body>
-<h1>Hola mundo desde Render</h1>
-</body>
-</html>
+
+    <div class="card">
+        <header>
+            <h1>Hola mundo desde Render</h1>
+        </header>
+
+        <main>
+            <div class="team-section">
+                <span class="team-title">Desarrollado por:</span>
+                <ul class="names">
+                    <li><strong>Angela Maria Hidalgo Campoy</strong></li>
+                    <li><strong>Vanessa Johanna Ariesian Utalea</strong></li>
+                </ul>
+            </div>
+
+            <p
