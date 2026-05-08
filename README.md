@@ -27,4 +27,3 @@ El proyecto utiliza dos entornos independientes:
 hola-render/
 │── index.html
 │── README.md
-│── test_render.py
